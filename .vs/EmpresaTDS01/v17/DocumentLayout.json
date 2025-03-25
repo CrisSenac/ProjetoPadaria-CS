@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmCalculadora.Designer.cs",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.Designer.cs",
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.Designer.cs",
               "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.Designer.cs",
               "RelativeToolTip": "Padaria\\frmCalculadora.Designer.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAiwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T13:34:51.385Z",
               "EditorCaption": ""
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
               "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
               "RelativeToolTip": "Padaria\\frmCalculadora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T12:37:25.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",

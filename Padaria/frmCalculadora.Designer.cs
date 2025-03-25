@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCalculadora));
             this.lblNumeroUm = new System.Windows.Forms.Label();
-            this.txtUm = new System.Windows.Forms.TextBox();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.txtResposta = new System.Windows.Forms.TextBox();
             this.lblResposta = new System.Windows.Forms.Label();
-            this.txtDois = new System.Windows.Forms.TextBox();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.lblNumeroDois = new System.Windows.Forms.Label();
             this.lblOperacoes = new System.Windows.Forms.Label();
             this.rdbSomar = new System.Windows.Forms.RadioButton();
@@ -55,13 +55,13 @@
             this.lblNumeroUm.TabIndex = 0;
             this.lblNumeroUm.Text = "Número 1";
             // 
-            // txtUm
+            // txtNumero1
             // 
-            this.txtUm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUm.Location = new System.Drawing.Point(38, 76);
-            this.txtUm.Name = "txtUm";
-            this.txtUm.Size = new System.Drawing.Size(100, 26);
-            this.txtUm.TabIndex = 0;
+            this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero1.Location = new System.Drawing.Point(38, 76);
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(100, 26);
+            this.txtNumero1.TabIndex = 0;
             // 
             // txtResposta
             // 
@@ -82,13 +82,13 @@
             this.lblResposta.TabIndex = 2;
             this.lblResposta.Text = "Resposta";
             // 
-            // txtDois
+            // txtNumero2
             // 
-            this.txtDois.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDois.Location = new System.Drawing.Point(38, 157);
-            this.txtDois.Name = "txtDois";
-            this.txtDois.Size = new System.Drawing.Size(100, 26);
-            this.txtDois.TabIndex = 1;
+            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero2.Location = new System.Drawing.Point(38, 157);
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(100, 26);
+            this.txtNumero2.TabIndex = 1;
             // 
             // lblNumeroDois
             // 
@@ -113,6 +113,7 @@
             // rdbSomar
             // 
             this.rdbSomar.AutoSize = true;
+            this.rdbSomar.Checked = true;
             this.rdbSomar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbSomar.Location = new System.Drawing.Point(271, 92);
             this.rdbSomar.Name = "rdbSomar";
@@ -130,7 +131,6 @@
             this.rdbDividir.Name = "rdbDividir";
             this.rdbDividir.Size = new System.Drawing.Size(69, 24);
             this.rdbDividir.TabIndex = 3;
-            this.rdbDividir.TabStop = true;
             this.rdbDividir.Text = "Dividir";
             this.rdbDividir.UseVisualStyleBackColor = true;
             // 
@@ -142,7 +142,6 @@
             this.rdbMultiplicar.Name = "rdbMultiplicar";
             this.rdbMultiplicar.Size = new System.Drawing.Size(97, 24);
             this.rdbMultiplicar.TabIndex = 5;
-            this.rdbMultiplicar.TabStop = true;
             this.rdbMultiplicar.Text = "Multiplicar";
             this.rdbMultiplicar.UseVisualStyleBackColor = true;
             // 
@@ -154,7 +153,6 @@
             this.rdbSubtrair.Name = "rdbSubtrair";
             this.rdbSubtrair.Size = new System.Drawing.Size(83, 24);
             this.rdbSubtrair.TabIndex = 4;
-            this.rdbSubtrair.TabStop = true;
             this.rdbSubtrair.Text = "Subtrair";
             this.rdbSubtrair.UseVisualStyleBackColor = true;
             // 
@@ -182,6 +180,7 @@
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSair
             // 
@@ -194,6 +193,7 @@
             this.btnSair.Text = "&Sair";
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmCalculadora
             // 
@@ -208,11 +208,11 @@
             this.Controls.Add(this.rdbDividir);
             this.Controls.Add(this.rdbSomar);
             this.Controls.Add(this.lblOperacoes);
-            this.Controls.Add(this.txtDois);
+            this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.lblNumeroDois);
             this.Controls.Add(this.txtResposta);
             this.Controls.Add(this.lblResposta);
-            this.Controls.Add(this.txtUm);
+            this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.lblNumeroUm);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -227,10 +227,10 @@
         #endregion
 
         private System.Windows.Forms.Label lblNumeroUm;
-        private System.Windows.Forms.TextBox txtUm;
+        private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.TextBox txtResposta;
         private System.Windows.Forms.Label lblResposta;
-        private System.Windows.Forms.TextBox txtDois;
+        private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.Label lblNumeroDois;
         private System.Windows.Forms.Label lblOperacoes;
         private System.Windows.Forms.RadioButton rdbSomar;
