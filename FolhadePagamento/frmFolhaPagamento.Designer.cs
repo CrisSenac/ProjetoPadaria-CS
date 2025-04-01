@@ -32,19 +32,19 @@
             this.lblDataFolha = new System.Windows.Forms.Label();
             this.dtpDataFolha = new System.Windows.Forms.DateTimePicker();
             this.lblSalario = new System.Windows.Forms.Label();
-            this.txbSalario = new System.Windows.Forms.TextBox();
+            this.txtSalario = new System.Windows.Forms.TextBox();
             this.lblClube = new System.Windows.Forms.Label();
             this.ckbPlanoSaude = new System.Windows.Forms.CheckBox();
-            this.cbxClube = new System.Windows.Forms.ComboBox();
+            this.cbbClube = new System.Windows.Forms.ComboBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.lblSalarioFolha = new System.Windows.Forms.Label();
-            this.txbSalarioFolha = new System.Windows.Forms.TextBox();
+            this.txtSalarioFolha = new System.Windows.Forms.TextBox();
             this.lblImposto = new System.Windows.Forms.Label();
             this.txtImposto = new System.Windows.Forms.TextBox();
             this.lblSalarioLiquido = new System.Windows.Forms.Label();
-            this.txbSalarioLiquido = new System.Windows.Forms.TextBox();
+            this.txtSalarioLiquido = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblDataFolha
@@ -77,14 +77,14 @@
             this.lblSalario.TabIndex = 2;
             this.lblSalario.Text = "Salário";
             // 
-            // txbSalario
+            // txtSalario
             // 
-            this.txbSalario.Location = new System.Drawing.Point(151, 136);
-            this.txbSalario.MaxLength = 10;
-            this.txbSalario.Name = "txbSalario";
-            this.txbSalario.Size = new System.Drawing.Size(100, 26);
-            this.txbSalario.TabIndex = 1;
-            this.txbSalario.TextChanged += new System.EventHandler(this.txbSalario_TextChanged);
+            this.txtSalario.Location = new System.Drawing.Point(151, 136);
+            this.txtSalario.MaxLength = 10;
+            this.txtSalario.Name = "txtSalario";
+            this.txtSalario.Size = new System.Drawing.Size(100, 26);
+            this.txtSalario.TabIndex = 1;
+            this.txtSalario.TextChanged += new System.EventHandler(this.txbSalario_TextChanged);
             // 
             // lblClube
             // 
@@ -106,18 +106,17 @@
             this.ckbPlanoSaude.Text = "Plano de Saúde";
             this.ckbPlanoSaude.UseVisualStyleBackColor = true;
             // 
-            // cbxClube
+            // cbbClube
             // 
-            this.cbxClube.FormattingEnabled = true;
-            this.cbxClube.Items.AddRange(new object[] {
-            "",
+            this.cbbClube.FormattingEnabled = true;
+            this.cbbClube.Items.AddRange(new object[] {
             "Clube A",
             "Clube B",
             "Clube C"});
-            this.cbxClube.Location = new System.Drawing.Point(151, 269);
-            this.cbxClube.Name = "cbxClube";
-            this.cbxClube.Size = new System.Drawing.Size(121, 28);
-            this.cbxClube.TabIndex = 3;
+            this.cbbClube.Location = new System.Drawing.Point(151, 269);
+            this.cbbClube.Name = "cbbClube";
+            this.cbbClube.Size = new System.Drawing.Size(121, 28);
+            this.cbbClube.TabIndex = 3;
             // 
             // btnCalcular
             // 
@@ -164,13 +163,13 @@
             this.lblSalarioFolha.TabIndex = 12;
             this.lblSalarioFolha.Text = "Salário Folha";
             // 
-            // txbSalarioFolha
+            // txtSalarioFolha
             // 
-            this.txbSalarioFolha.Enabled = false;
-            this.txbSalarioFolha.Location = new System.Drawing.Point(356, 79);
-            this.txbSalarioFolha.Name = "txbSalarioFolha";
-            this.txbSalarioFolha.Size = new System.Drawing.Size(100, 26);
-            this.txbSalarioFolha.TabIndex = 13;
+            this.txtSalarioFolha.Enabled = false;
+            this.txtSalarioFolha.Location = new System.Drawing.Point(356, 79);
+            this.txtSalarioFolha.Name = "txtSalarioFolha";
+            this.txtSalarioFolha.Size = new System.Drawing.Size(100, 26);
+            this.txtSalarioFolha.TabIndex = 13;
             // 
             // lblImposto
             // 
@@ -198,32 +197,32 @@
             this.lblSalarioLiquido.TabIndex = 16;
             this.lblSalarioLiquido.Text = "Salário Líquido";
             // 
-            // txbSalarioLiquido
+            // txtSalarioLiquido
             // 
-            this.txbSalarioLiquido.Enabled = false;
-            this.txbSalarioLiquido.Location = new System.Drawing.Point(358, 254);
-            this.txbSalarioLiquido.Name = "txbSalarioLiquido";
-            this.txbSalarioLiquido.Size = new System.Drawing.Size(100, 26);
-            this.txbSalarioLiquido.TabIndex = 17;
+            this.txtSalarioLiquido.Enabled = false;
+            this.txtSalarioLiquido.Location = new System.Drawing.Point(358, 254);
+            this.txtSalarioLiquido.Name = "txtSalarioLiquido";
+            this.txtSalarioLiquido.Size = new System.Drawing.Size(100, 26);
+            this.txtSalarioLiquido.TabIndex = 17;
             // 
             // frmFolhaPagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 381);
-            this.Controls.Add(this.txbSalarioLiquido);
+            this.ClientSize = new System.Drawing.Size(784, 388);
+            this.Controls.Add(this.txtSalarioLiquido);
             this.Controls.Add(this.lblSalarioLiquido);
             this.Controls.Add(this.txtImposto);
             this.Controls.Add(this.lblImposto);
-            this.Controls.Add(this.txbSalarioFolha);
+            this.Controls.Add(this.txtSalarioFolha);
             this.Controls.Add(this.lblSalarioFolha);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.cbxClube);
+            this.Controls.Add(this.cbbClube);
             this.Controls.Add(this.ckbPlanoSaude);
             this.Controls.Add(this.lblClube);
-            this.Controls.Add(this.txbSalario);
+            this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.dtpDataFolha);
             this.Controls.Add(this.lblDataFolha);
@@ -245,18 +244,18 @@
         private System.Windows.Forms.Label lblDataFolha;
         private System.Windows.Forms.DateTimePicker dtpDataFolha;
         private System.Windows.Forms.Label lblSalario;
-        private System.Windows.Forms.TextBox txbSalario;
+        private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Label lblClube;
         private System.Windows.Forms.CheckBox ckbPlanoSaude;
-        private System.Windows.Forms.ComboBox cbxClube;
+        private System.Windows.Forms.ComboBox cbbClube;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblSalarioFolha;
-        private System.Windows.Forms.TextBox txbSalarioFolha;
+        private System.Windows.Forms.TextBox txtSalarioFolha;
         private System.Windows.Forms.Label lblImposto;
         private System.Windows.Forms.TextBox txtImposto;
         private System.Windows.Forms.Label lblSalarioLiquido;
-        private System.Windows.Forms.TextBox txbSalarioLiquido;
+        private System.Windows.Forms.TextBox txtSalarioLiquido;
     }
 }

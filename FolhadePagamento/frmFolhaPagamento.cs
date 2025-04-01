@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -42,37 +43,74 @@ namespace FolhadePagamento
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double num1, num2, resp;
+            double salario, ir = 0;
+            
+            salario = Convert.ToDouble(txtSalario.Text);
 
-            num1 = Convert.ToDouble(txbSalario.Text);
-            num2 = Convert.ToDouble(txtImposto.Text);
-
-            if (num1 <= 2259.20)
+            if ( salario <= 2259.20)
             {
-                resp = num1
+                ir = 0;
+                salario = salario - 0;
+                
+
+            } else if ( salario >= 2259.21 &&  salario <= 2826.65)
+            {
+                ir = salario * 7.5 / 100;
+                salario = salario - ir;
+                 
+            } else if ( salario >= 2826.66 && salario <= 3751.05)
+            {
+                ir = salario * 15 / 100;
+                salario = salario - ir;
+                
+            } else if ( salario >= 3751.06 && salario <= 4664.68)
+            {
+                ir = salario * 22.5 / 100;
+                salario = salario - ir;
+                
+            } else if ( salario >= 4664.69)
+            {
+                ir = salario * 27.5 / 100;
+                salario = salario - ir;
+                
             }
+            if (ckbPlanoSaude.Checked)
+            {
+                salario = salario - 400;
+            }
+
+            // verificar clube
+            if (cbbClube.SelectedIndex == 0)
+            {
+                salario = salario - 100;
+            }
+            if (cbbClube.SelectedIndex == 1)
+            {
+                salario = salario - 50;
+            }
+            if (cbbClube.SelectedIndex == 2)
+            {
+                salario = salario - 30;
+            }
+
+            txtSalarioLiquido.Text = salario.ToString();
+            txtImposto.Text = ir.ToString();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            txbSalario.Text = "";
+            txtSalario.Text = "";
             ckbPlanoSaude.Text = "";
-            cbxClube.Text = "";
-            txbSalarioFolha.Text = "";
+            cbbClube.Text = "";
+            txtSalarioFolha.Text = "";
             txtImposto.Text = "";
-            txbSalarioLiquido.Text = "";
+            txtSalarioLiquido.Text = "";
 
-           /* rdbSomar.Checked = false;
-            rdbSubtrair.Checked = false;
-            rdbMultiplicar.Checked = false;
-            rdbDividir.Checked = false;
-
-            txtNumero1.Focus(); */
         }
 
         private void txbSalario_TextChanged(object sender, EventArgs e)
         {
-           txbSalarioFolha.Text = txbSalario.Text;
+           txtSalarioFolha.Text = txtSalario.Text;
         }
     }
     }
