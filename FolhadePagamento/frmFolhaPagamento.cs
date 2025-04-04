@@ -74,11 +74,7 @@ namespace FolhadePagamento
                 salario = salario - ir;
                 
             }
-            if (ckbPlanoSaude.Checked)
-            {
-                salario = salario - 400;
-            }
-
+           
             // verificar clube
             if (cbbClube.SelectedIndex == 0)
             {
@@ -93,6 +89,11 @@ namespace FolhadePagamento
                 salario = salario - 30;
             }
 
+            if (ckbPlanoSaude.Checked)
+            {
+                salario = salario - 400;
+            }
+
             txtSalarioLiquido.Text = salario.ToString();
             txtImposto.Text = ir.ToString();
         }
@@ -100,11 +101,12 @@ namespace FolhadePagamento
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtSalario.Text = "";
-            ckbPlanoSaude.Text = "";
+            ckbPlanoSaude.Checked = false;
             cbbClube.Text = "";
             txtSalarioFolha.Text = "";
             txtImposto.Text = "";
             txtSalarioLiquido.Text = "";
+            txtSalario.Focus();
 
         }
 

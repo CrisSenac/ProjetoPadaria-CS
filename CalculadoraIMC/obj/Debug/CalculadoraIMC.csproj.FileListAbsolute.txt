@@ -1,0 +1,10 @@
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.AssemblyReference.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.frmCalculadoraIMC.resources
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb
