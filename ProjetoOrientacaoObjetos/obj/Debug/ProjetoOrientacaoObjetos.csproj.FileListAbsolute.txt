@@ -1,0 +1,10 @@
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\bin\Debug\ProjetoOrientacaoObjetos.exe.config
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\bin\Debug\ProjetoOrientacaoObjetos.exe
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\bin\Debug\ProjetoOrientacaoObjetos.pdb
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.csproj.AssemblyReference.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.frmProdutos.resources
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.Properties.Resources.resources
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.csproj.GenerateResource.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.csproj.CoreCompileInputs.cache
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.exe
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.pdb

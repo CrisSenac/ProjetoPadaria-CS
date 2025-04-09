@@ -34,10 +34,7 @@ namespace CalculadoraIMC
             idade = Convert.ToDouble(txtIdade.Text);
             resultado = Convert.ToDouble(txtResultado.Text);
 
-            if ()
-            {
 
-            }
           
             txtResultado.Text = resultado.ToString();
 
