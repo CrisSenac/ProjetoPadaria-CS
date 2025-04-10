@@ -47,5 +47,20 @@ namespace ProjetoOrientacaoObjetos
         {
             Application.Exit();
         }
+
+        private void txtQuantReg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmProdutos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

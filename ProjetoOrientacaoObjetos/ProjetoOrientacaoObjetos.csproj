@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEstrututaRepeticao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstrututaRepeticao.Designer.cs">
+      <DependentUpon>frmEstrututaRepeticao.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEstrututaRepeticao.resx">
+      <DependentUpon>frmEstrututaRepeticao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProdutos.resx">
       <DependentUpon>frmProdutos.cs</DependentUpon>
     </EmbeddedResource>

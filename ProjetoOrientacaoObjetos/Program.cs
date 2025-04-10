@@ -16,7 +16,7 @@ namespace ProjetoOrientacaoObjetos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmProdutos());
+            Application.Run(new frmEstrututaRepeticao());
         }
     }
 }
