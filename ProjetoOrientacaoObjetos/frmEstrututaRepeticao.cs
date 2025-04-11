@@ -43,9 +43,31 @@ namespace ProjetoOrientacaoObjetos
             cbbEstado.Items.Add("Vila Remo");
             cbbEstado.Items.Add("Capelinha");
             cbbEstado.Items.Add("Campo Limpo");
-            cbbEstado.Items.Add("");
+            cbbEstado.Items.Add("Jardim Nakamura");
+            cbbEstado.Items.Add("Jardim Icarai");
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInserirEstado_Click(object sender, EventArgs e)
+        {
+            ltbListaDeEstados.Text = txtInserirEstado.Text;
+            
+            
+        }
+
+        private void btnLimparEstado_Click(object sender, EventArgs e)
+        {
+            ltbListaDeEstados.Items.Clear();
+        }
+
+        private void btnLimpaItem_Click(object sender, EventArgs e)
+        {
+            ltbListaDeEstados.Items.RemoveAt(ltbListaDeEstados.SelectedIndex);
+        }
     }
 }

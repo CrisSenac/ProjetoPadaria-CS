@@ -8,3 +8,4 @@ C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrien
 C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.csproj.CoreCompileInputs.cache
 C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.exe
 C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.pdb
+C:\Users\crislene.ssilva1\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoOrientacaoObjetos\obj\Debug\ProjetoOrientacaoObjetos.frmEstrututaRepeticao.resources
