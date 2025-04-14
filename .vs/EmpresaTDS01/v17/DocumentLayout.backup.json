@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|solutionrelative:projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|solutionrelative:projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0E7470F-BCAD-43A8-8E57-16CD51246AB6}|FolhadePagamento\\FolhadePagamento.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\folhadepagamento\\frmfolhapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E7470F-BCAD-43A8-8E57-16CD51246AB6}|FolhadePagamento\\FolhadePagamento.csproj|solutionrelative:folhadepagamento\\frmfolhapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\projetoorientacaoobjetos\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,53 +42,93 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmFolhaPagamento.cs",
-              "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\FolhadePagamento\\frmFolhaPagamento.cs",
-              "RelativeDocumentMoniker": "FolhadePagamento\\frmFolhaPagamento.cs",
-              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\FolhadePagamento\\frmFolhaPagamento.cs",
-              "RelativeToolTip": "FolhadePagamento\\frmFolhaPagamento.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Operacoes.cs",
+              "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\Operacoes.cs",
+              "RelativeDocumentMoniker": "Padaria\\Operacoes.cs",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\Operacoes.cs",
+              "RelativeToolTip": "Padaria\\Operacoes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T11:23:35.28Z",
+              "WhenOpened": "2025-04-14T11:14:33.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmCalculadora.cs",
+              "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs*",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:06:55.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs [Design]*",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:06:54.099Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCalculadora.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.Designer.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.Designer.cs",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.Designer.cs",
+              "RelativeToolTip": "Padaria\\frmCalculadora.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:06:35.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmEstrututaRepeticao.cs",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
               "RelativeDocumentMoniker": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
-              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs*",
-              "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAtwDoAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
+              "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAtwDcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T12:46:07.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "frmEstrututaRepeticao.cs [Design]",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
               "RelativeDocumentMoniker": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
-              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs [Design]*",
-              "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs [Design]*",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs [Design]",
+              "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:38:54.711Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-10T12:38:54.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "frmProdutos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmProdutos.cs",
               "RelativeDocumentMoniker": "ProjetoOrientacaoObjetos\\frmProdutos.cs",
               "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoOrientacaoObjetos\\frmProdutos.cs [Design]",
               "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmProdutos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T12:05:06.567Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-09T12:05:06.567Z"
             }
           ]
         }

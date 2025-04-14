@@ -45,6 +45,8 @@ namespace Padaria
                 num1 = Convert.ToDouble(txtNumero1.Text);
                 num2 = Convert.ToDouble(txtNumero2.Text);
 
+                Operacoes op = new Operacoes();
+
                 if (
                     rdbSomar.Checked == false &&
                     rdbSubtrair.Checked == false &&
@@ -54,15 +56,15 @@ namespace Padaria
 
                 if (rdbSomar.Checked)
                 {
-                    resp = num1 + num2;
+                        resp = op.somarValor(num1 , num2);
                 }
                 if (rdbSubtrair.Checked)
                 {
-                    resp = num1 - num2;
+                    resp = op.subtracaoValor(num1 , num2);
                 }
                 if (rdbMultiplicar.Checked)
                 {
-                    resp = num1 * num2;
+                    resp = op.multiplicacaoValor(num1 , num2);
                 }
                 if (rdbDividir.Checked)
                 {
@@ -95,20 +97,31 @@ namespace Padaria
 
 
         }
+        //criando o método limpar campos
+        public void limparCampos()
+        {
+            txtNumero1.Clear();
+            txtNumero2.Clear();
+            txtNumero1.Focus();
+        }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
+            //executando método desabilitar e limpar
+            limparCamposDesabilitar();
+
+        }
+        //limpar campos e desabilitar botões
+        public void limparCamposDesabilitar()
+        {
             //limpar os campos
             txtNumero1.Text = "";
-            txtNumero2.Clear();
             txtResposta.Clear();
 
             rdbSomar.Checked = false;
             rdbSubtrair.Checked = false;
             rdbMultiplicar.Checked = false;
             rdbDividir.Checked = false;
-
-            txtNumero1.Focus();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
