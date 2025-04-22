@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B598B22-4FBA-4C7D-8753-0647ABD60095}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|c:\\users\\crislene.ssilva1\\documents\\visual studio 2022\\empresatds01\\projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7470B6-B830-4FB9-A71B-113701D252F6}|ProjetoOrientacaoObjetos\\ProjetoOrientacaoObjetos.csproj|solutionrelative:projetoorientacaoobjetos\\frmestrututarepeticao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Padaria\\Operacoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:14:33.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T11:14:33.241Z"
             },
             {
               "$type": "Document",
@@ -59,9 +58,9 @@
               "Title": "frmCalculadora.cs",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs*",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwDUAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowG4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T11:06:55.934Z",
               "EditorCaption": ""
@@ -72,15 +71,10 @@
               "Title": "frmCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs",
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs [Design]*",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]*",
+              "ToolTip": "C:\\Users\\crislene.ssilva1\\Documents\\Visual Studio 2022\\EmpresaTDS01\\Padaria\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:06:54.099Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-04-14T11:06:54.099Z"
             },
             {
               "$type": "Document",
@@ -92,8 +86,7 @@
               "RelativeToolTip": "Padaria\\frmCalculadora.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:06:35.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T11:06:35.356Z"
             },
             {
               "$type": "Document",
@@ -105,8 +98,7 @@
               "RelativeToolTip": "ProjetoOrientacaoObjetos\\frmEstrututaRepeticao.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAtwDcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:46:07.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T12:46:07.548Z"
             },
             {
               "$type": "Document",
